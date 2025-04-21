@@ -1,4 +1,5 @@
-![Banner](./assets/banner.png)
+![Banner](https://raw.githubusercontent.com/eduardohcDCM/ConfiguracionBlitzUF/refs/heads/main/assets/banner.png)
+
 
 ## 1. Objetivo
 
