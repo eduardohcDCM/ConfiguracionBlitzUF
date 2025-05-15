@@ -75,9 +75,16 @@ Tu registro A debería verse así:
 |--------|------|------|----------------|
 | tudominio.com | 3600 | A    | 200.52.87.143 |
 
+### 4.1 Verifiacion de DNS
+Es importante que verifiques lo siguiente:
+
+1. Debes tener un único registro A asociado al nombre de tu dominio o al símbolo @. Este registro debe apuntar a la IP de Blitz
+2. No debes tener registros AAAA asociados al nombre de tu dominio ni al símbolo @, ya que actualmente no contamos con soporte para IPv6.
+   
+
 ---
 
-## 5. Preguntas frecuentes
+## 5. Preguntas y casos frecuentes
 
 ### 5.1. ¿Qué hacer si tu proveedor de SSL no te proporciona los archivos?
 
@@ -149,6 +156,22 @@ Si no tienes acceso al DNS, puedes solicitar a tu proveedor de dominio que reali
 
 Puedes verificar si el cambio ya está activo usando herramientas como:
 - [dnschecker.org](https://dnschecker.org)
+
+---
+
+### 5.6. Mi dominio no resuelve en www
+Si tu dominio funciona correctamente en tudominio.com pero no al usar www.tudominio.com, necesitas agregar un registro CNAME en el panel de DNS de tu proveedor.
+
+1. Accede al panel de administración de DNS de tu proveedor de dominio.
+2. Verifica si tienes un registro A con valo www o www.tudominio.com, si existe elmininalo.
+3. Crea un nuevo registro CNAME y configuralo de la siguiente manera:
+   
+| Nombre | TTL  | Tipo | Registro       |
+|--------|------|------|----------------|
+| www | 3600 | CNAME   | tudominio.com |
+
+> [!NOTE]  
+> Recuerda sustituir los valores de ejemplo "tudominio.com" y/o "www.tudominio.com" por el valor real del dominio que haz adquirido.
 
 ---
 
