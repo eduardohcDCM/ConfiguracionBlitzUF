@@ -179,6 +179,10 @@ Si tu dominio funciona correctamente en tudominio.com pero no al usar www.tudomi
 
 Si necesitas asesoría, puedes solicitar una conferencia con el equipo de Blitz a través de los siguientes correos electrónicos:
 
-- Sistemas: [eduardo.hernandez@dcm.com.mx, robertoo@dcm.com.mx, sisweb01@dcm.com.mx]
-- Administración: [arturo.martinez@dcm.com.mx, coord.mercadotecnia@dcm.com.mx, programador.uix@dcm.com.mx], tel: 55-5262-5700 ext: [2315, 2601, 2615]
+- Sistemas: 
+   - Email: eduardo.hernandez@dcm.com.mx, robertoo@dcm.com.mx, sisweb01@dcm.com.mx
+- Administración: 
+   - Email: arturo.martinez@dcm.com.mx, coord.mercadotecnia@dcm.com.mx, programador.uix@dcm.com.mx
+   - tel: 55-5262-5700 
+   - ext: [2315, 2601, 2615]
 
